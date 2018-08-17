@@ -4,6 +4,11 @@ body{
     font-family: 'Merienda', cursive;
     color: white;
 }
+.gambi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 header{
     background-image:linear-gradient(to right,rgb(83, 5, 99),white);
     display:flex;
@@ -13,10 +18,13 @@ header{
     color:black;
     font-family: 'Gudea', sans-serif
 }
-h1{
+.h1{
     font-size: 50px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px 10px;
+    margin-left: 35%;
 }
 .header-links{
     width: 100%;
@@ -143,4 +151,27 @@ button{
     justify-content: center;
     font-size: 80px;
     font-style: bolder;
+}
+.icones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 400px;
+}
+.icones img {
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.icone{
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    /*visibility: hidden;*/
 }
