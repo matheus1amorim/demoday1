@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+.negrito{
+    text-decoration: bolder;
+    margin-top: 50px;
+}
+.cinza{
+    color: gray;
+    margin-top: 30px;
+
+}
+.imagem{
+    display: flex;
+    max-height: 270px;
+    max-width: 270px;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+.produto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.finalizar{
+    text-decoration: gray;
+    margin-top: 60px;
+}
+.total{
+    text-decoration: white;
+    margin-top: 50px;
+}
+.botao{
+    font-weight: bold;
+padding: 20px;
+float: left;
+border: 1px;
+border-color:violet;
+color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.espe{
+    margin-top: 160px;
+    align-items: center;
+    margin-left: -250px
+}
+.finalizar{
+    margin-top: 20px;
+}
+.FC{
+    text-decoration: bolder;
+    font-size: 40px;
+}

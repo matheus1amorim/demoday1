@@ -5,14 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="loja.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-
+        <div class="gambi">
+            <img src="" alt="">
+            <p class="h1">Clothing Match</p>
+            <div class="icones">
+                <div>
+                    <img class="icone" src="luiza.jpeg" alt="">
+                </div>
+                <div>
+                    <p>Luiza Morelli</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-links">
+            <a href="#home">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contatos</a>
+            <a href="loja.html">Loja</a>
+            <a href="carrinho.html">Carrinho</a>
+        </div>
     </header>
-    <section>
+    <section class="filtro">
+        <form class="busca" method="post" action="filtro.php">
+            <table>
+                <p class="titulo_filtro">Pesquise Aqui</p>
+                <tr class="tr">
+                    <td>PeÃ§a:</td>
+                    <td><input type="text" name="peÃ§a"/></td>
+                </tr>
+                <tr class="tr">
+                    <td>Tamanho:</td>
+                    <td><input type="text" name="tamanho"/></td>
+                </tr>
+                <tr class="tr">
+                    <td>Cor:</td>
+                    <td><input type="text" name="cor"/></td>
+                 </tr>
+                 <tr class="tr">
+                    <td>Estado:</td>
+                    <td><input type="text" name="estado"/></td>
+                </tr>
+                <tr class="tr">
+                    <td>PreÃ§o:</td>
+                    <td><input type="text" name="preÃ§o"/></td>
+                </tr>
+            </table>
+            <button class="pesquisar">Pesquisar</button>
+        </form>
+    </section>
+    <section class="produto">
         
+        <div>
+            <img class="iconeseta" src="setinha_esquerda.png" alt="">
+        </div>    
+        <div class="imagem">
+            <div class="roupa">
+            <img width="500" src="roupa 12.jpg" /> 
+            <p class="nome_preÃ§o">Camiseta  $300</p>
+            </div>
+            <div class="botoes">
+            <p class="nao_gostei">NÃ£o Gostei</p>
+            <p class="comprar_direto">Comprar direto</p>
+            <p class="add_carrinho">Adicionar ao carrinho</p>
+            </div>
+        </div>
+        <div>
+            <img class="iconeseta" src="setinha_direita.png" alt="">
+        </div>
+       
     </section>
 </body>
 </html>

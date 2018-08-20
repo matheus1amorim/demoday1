@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    background-color: black;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+.gambi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+header{
+    background-image:linear-gradient(to right,rgb(83, 5, 99),white);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+    font-family: 'Gudea', sans-serif
+}
+.h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    margin-left: 35%;
+}
+.header-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin:5px;
+    margin-top:0;
+}
+.titulo_filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 5px;
+    
+}
+.filtro{
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 66vh;
+    border: 1px solid #fff;
+    
+}
+.tr{
+    display: flex;
+    justify-content: flex-end;       
+    margin: 30px 10px;
+}
+.produto{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: table;
+}
+.icone_seta_esquerda{
+    float: left;
+    margin-top: 50%;
+    width: 50px;
+}
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    width: 500px;
+    height: 450;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+}
+.imagem img{
+    display: flex;
+    max-height: 400px;
+    max-width: 400px;
+}
+.iconeseta{
+    display: flex;
+    float: left;
+    max-height: 50px;
+    max-width: 50px;
+    margin-top: 250px;
+}
+.nome_preço{
+    border: 1px solid #fff;
+    
+}
+.nao_gostei{
+    background-color: red;
+    float: left;
+    border: 1px solid #fff;
+    margin-left: 10%;
+}
+.comprar_direto{
+    background-color: green;
+    float: left;
+    border: 1px solid #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.add_carrinho{
+    background-color: blue;
+    float: left;
+    border: 1px solid #fff;
+}
+.pesquisar{
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+
+    
+}
