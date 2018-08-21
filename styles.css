@@ -247,6 +247,7 @@ button{
     float: left;
     border: 1px solid #fff;
     margin-left: 10%;
+    color: white;
 }
 .comprar_direto{
     background-color: green;
@@ -254,16 +255,16 @@ button{
     border: 1px solid #fff;
     margin-left: 10%;
     margin-right: 10%;
+    color: white;
 }
 .add_carrinho{
     background-color: blue;
     float: left;
     border: 1px solid #fff;
+    color: white;
 }
 .pesquisar{
     display: flex;
     position: relative;
     margin-left: 100px;
-
-    
 }

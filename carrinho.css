@@ -1,4 +1,68 @@
 body{
+    margin:0;
+    background-color: black;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+.gambi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+header{
+    background-image:linear-gradient(to right,rgb(83, 5, 99),white);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+    font-family: 'Gudea', sans-serif
+}
+.h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    margin-left: 35%;
+}
+.header-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin:5px;
+    margin-top:0;
+}
+a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.icones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 400px;
+}
+.icones img {
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.icone{
+    display: flex;
+    max-height: 60px;
+    max-width: 60px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border-radius: 50%;
+    /*visibility: hidden;*/
+}
+body{
     background-color: black;
     color: white;
     margin: 0%;
@@ -56,4 +120,7 @@ color: black;
 .FC{
     text-decoration: bolder;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
