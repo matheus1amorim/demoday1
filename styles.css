@@ -117,6 +117,13 @@ a{
 button{
     position: relative;
     z-index: 2;
+    border:1px solid #25692A;
+    border-radius:4px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    text-decoration:none;
+    margin-top: 0;
 }
 .produtos{
     display:flex;
@@ -198,9 +205,9 @@ button{
     margin: 30px 10px;
 }
 .produto{
-    width: 50%;
+    width: 60%;
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 2%;
     display: table;
 }
@@ -234,10 +241,14 @@ button{
 .iconeseta{
     display: flex;
     float: left;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 70px;
+    max-width: 90px;
     margin-top: 250px;
 }
+.ba button{
+    display: flex;
+    margin-top: 273px;
+}  
 .nome_preço{
     border: 1px solid #fff;
     
@@ -256,6 +267,8 @@ button{
     margin-left: 10%;
     margin-right: 10%;
     color: white;
+    width: 100px;
+    font-size: 18px;
 }
 .add_carrinho{
     background-color: blue;
@@ -263,8 +276,15 @@ button{
     border: 1px solid #fff;
     color: white;
 }
-.pesquisar{
-    display: flex;
-    position: relative;
-    margin-left: 100px;
-}
+.bt {
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    justify-content: center;
+    }

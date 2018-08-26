@@ -33,6 +33,35 @@ header{
     margin:5px;
     margin-top:0;
 }
+a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.icones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 400px;
+}
+.icones img {
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.icone{
+    display: flex;
+    max-height: 60px;
+    max-width: 60px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border-radius: 50%;
+    /*visibility: hidden;*/
+}
 .titulo_filtro{
     display: flex;
     justify-content: center;
@@ -47,7 +76,28 @@ header{
     margin-top: 2%;
     height: 66vh;
     border: 1px solid #fff;
-    
+    z-index: 4;
+    position: absolute;
+    background-color: black;
+}
+.cac{
+    z-index: 3;
+    float: left;
+    margin-top: 2%;
+    background-color: black;
+    height: 500px;
+    width:620px;
+    position: absolute;
+}
+.caco{
+    z-index: 3;
+    float: right;
+    margin-left: 1000px;
+    margin-top: 2%;
+    background-color: black;
+    height: 500px;
+    width:620px;
+    position: absolute;
 }
 .tr{
     display: flex;
@@ -123,4 +173,71 @@ header{
     margin-left: 100px;
 
     
+}
+.imagens_container {
+    width: 100vw;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent 35%, white 35%, white 65%, transparent 65%);
+}
+
+@keyframes move_images {
+    0% {
+        transform:translateX(0);
+    }
+
+    10% {
+        transform:translateX(0);
+    }
+
+    20% {
+        transform:translateX(-400px);
+    }
+
+    30% {
+        transform:translateX(-400px);
+    }
+
+    40% {
+        transform:translateX(-800px);
+    }
+
+    50% {
+        transform:translateX(-800px);
+    }
+
+    60% {
+        transform:translateX(-1200px);
+    }
+
+    70% {
+        transform:translateX(-1200px);
+    }
+
+    80% {
+        transform:translateX(-1600px);
+    }
+
+    90% {
+        transform:translateX(-1600px);
+    }
+
+    100% {
+        transform:translateX(-1600px);
+    }
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    float: left;
+    text-align: center;
+    width: 240vw;
+    animation:move_images 10s ease-in-out infinite alternate;
+
+}
+
+.roupa1 {
+    margin-left: 35vw;
 }
